@@ -17,15 +17,15 @@ const nav__links = [
   },
   {
     display: "Our Rates",
-    path: "/pizzas",
+    path: "/#",
   },
   {
     display: "Track a Package",
-    path: "/cart",
+    path: "/#",
   },
   {
     display: "Contact",
-    path: "/contact",
+    path: "/#",
   },
 ];
 
