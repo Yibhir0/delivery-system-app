@@ -16,11 +16,11 @@ const nav__links = [
     path: "/home",
   },
   {
-    display: "Foods",
+    display: "Our Rates",
     path: "/pizzas",
   },
   {
-    display: "Cart",
+    display: "Track a Package",
     path: "/cart",
   },
   {
@@ -65,7 +65,7 @@ const Header = () => {
         <div className="nav__wrapper d-flex align-items-center justify-content-between">
           <div className="logo" onClick={() => navigate("/home")}>
             <img src={logo} alt="logo" />
-            <h5>Swift Parcel</h5>
+            <h5>Habibi Deliveries</h5>
           </div>
           {/* ======= menu ======= */}
           <div className="navigation" ref={menuRef} o>
