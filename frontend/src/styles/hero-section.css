@@ -1,0 +1,100 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #6a1b9a, #8e24aa);
+  padding: 60px 0;
+  color: white;
+}
+
+.hero__content {
+  max-width: 550px;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ff6f00;
+}
+
+/* Hero Title */
+.hero__title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.3;
+  color: white;
+
+}
+
+
+
+.hero__desc {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #d3d3d3;  /* Light grey color for the hero title */
+
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.order__btn, .learn-more__btn {
+  background-color: #ff6f00;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.order__btn i, .learn-more__btn i {
+  margin-left: 10px;
+}
+
+.order__btn:hover, .learn-more__btn:hover {
+  background-color: #e65100;
+}
+
+/* Hero Image */
+.hero__img-container {
+  text-align: center;
+}
+
+.hero__img img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+/* Features Section */
+.features-section {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.feature-card {
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #ff6f00;
+  margin-bottom: 20px;
+}
+
+/* Set text color to black for the feature titles and descriptions */
+.feature-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: black;  /* Black text for titles */
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: black;  /* Black text for descriptions */
+}

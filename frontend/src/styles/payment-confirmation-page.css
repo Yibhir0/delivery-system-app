@@ -1,0 +1,62 @@
+/* Confirmation Page Styling */
+.confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  /* Changed from center to flex-start to align it higher */
+    height: 100vh;
+    padding-top: 50px;  /* Added padding-top to move the container up */
+    background-color: #f7f7f7;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.confirmation-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.confirmation-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6c63ff; /* Using purple color (matching payment form theme) */
+    margin-bottom: 20px;
+}
+
+.confirmation-message {
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+}
+
+.highlight-text {
+    font-weight: bold;
+    color: #ff9800; /* Using orange color (matching payment form theme) */
+}
+
+.confirmation-text {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.go-home-btn {
+    background-color: #6c63ff; /* Using purple color for the button */
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.go-home-btn:hover {
+    background-color: #5a54e1; /* Slightly darker purple for hover effect */
+}

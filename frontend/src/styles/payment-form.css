@@ -1,0 +1,104 @@
+/* Wrapper and Header */
+.payment-form-wrapper {
+  max-width: 90%; /* Take up most of the screen width */
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.payment-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6a1b9a; /* Purple header */
+  margin-bottom: 20px;
+}
+
+/* Tabs */
+.payment-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  background: linear-gradient(45deg, #6a1b9a, #f57c00); /* Purple to Orange */
+  color: #fff;
+}
+
+/* Payment Amount */
+.amount-display {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.amount-display h2 {
+  font-size: 20px;
+  color: #f57c00; /* Orange */
+}
+
+/* Form */
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a1b9a; /* Purple */
+  box-shadow: 0 0 5px rgba(106, 27, 154, 0.5);
+}
+
+/* Submit Button */
+.payment-btn {
+  background: linear-gradient(45deg, #f57c00, #6a1b9a); /* Orange to Purple */
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.payment-btn:hover {
+  background: linear-gradient(45deg, #6a1b9a, #f57c00); /* Purple to Orange */
+}

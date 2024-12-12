@@ -1,0 +1,118 @@
+/* General Admin Dashboard Styles */
+.admin-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Header Section */
+.admin-dashboard .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #7A4EAA; /* Purple */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard .tabs button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 3px;
+}
+
+.admin-dashboard .tabs button.active {
+    background-color: #FFA500; /* Orange when active */
+}
+
+.admin-dashboard .tabs button:hover {
+    background-color: #D27CFF; /* Lighter purple on hover */
+}
+
+/* Content Section */
+.content {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #7A4EAA; /* Purple */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Add Button */
+.add-btn {
+    background-color: #FFA500; /* Orange */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #D27CFF; /* Lighter purple on hover */
+}
+
+/* Section Title */
+h2 {
+    color: #7A4EAA; /* Purple */
+    margin-bottom: 10px;
+}
+
+/* Warehouse List */
+.warehouse-list,
+.driver-list,
+.client-list,
+.package-list {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+/* Table Button and Cell Styles */
+table button {
+    padding: 5px 10px;
+    background-color: #7A4EAA; /* Purple */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #FFA500; /* Orange on hover */
+}
+
+/* Add a More Refined Border Effect */
+button:focus {
+    outline: none;
+    border: 2px solid #D27CFF; /* Light Purple focus effect */
+}

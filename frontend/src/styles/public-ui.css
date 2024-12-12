@@ -1,0 +1,168 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #4e2a84;
+  color: white;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #6a1b9a, #8e24aa);
+  color: white;
+  padding: 2rem;
+  text-align: left;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;  /* Added this line to make the text white */
+
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Ship Now Button - Larger Version */
+.btn-primary {
+    background-color: #ff6f00;
+    color: white;
+    padding: 1.2rem 2.5rem;  /* Increased padding for a larger button */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 2rem;  /* Larger font size */
+    display: inline-flex;  /* Allowing the text and button to adjust */
+    align-items: center;
+    justify-content: center;
+  }
+
+.btn-primary:hover {
+  background-color: #e65100;
+}
+
+/* Hero Image */
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #f4f4f4;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.features p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-secondary {
+  background-color: #4e2a84;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-secondary:hover {
+  background-color: #3e1e6a;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer nav a {
+  color: #ff6f00;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footer nav a:hover {
+  text-decoration: underline;
+}
+
+/* Ask Habibi Bot Button - Larger Version */
+.ask-habibi-btn {
+    position: fixed;
+    bottom: 30px;  /* Adjusted distance from the bottom */
+    right: 30px;   /* Adjusted distance from the right */
+    background-color: #4e2a84;
+    color: white;
+    padding: 1.5rem 3rem;  /* Increased padding for a larger button */
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);  /* Increased shadow for a bigger button effect */
+    z-index: 1000;  /* Ensure it's on top */
+    font-size: 1.5rem;  /* Larger font size */
+    width: auto;   /* Auto width based on padding */
+    height: auto;  /* Auto height based on padding */
+  }
+
+.ask-habibi-btn:hover {
+  background-color: #3e1e6a;
+}
+
+.ask-habibi-btn .bot-logo {
+  width: 120px;
+  height: 80px;
+  margin-right: 38px;
+}
+
+/* Apply white color to all links in the ClientApp */
+.ClientApp a {
+  color: white;
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+.ClientApp a:hover {
+  color: #ccc; /* Optional: Change color on hover */
+}

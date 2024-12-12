@@ -1,0 +1,6 @@
+target/
+build/
+.m2
+.dockerignore
+Dockerfile
+Dockerfile.prod
